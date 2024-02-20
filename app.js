@@ -7,7 +7,7 @@ const PORT = 3000;
 app.use(express.json());
 
 mongoose
-  .connect("mongodb+srv://demoDB:Twite_34@sandbox.xdes7.mongodb.net/starkDB")
+  .connect("enter your srv string/starkDB")
   .then(() => console.log("Database is connected"))
   .catch((error) => console.log(error));
 
